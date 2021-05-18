@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header"><h1>Задачи</h1></div>
+                <div class="card-header"><h1>Задачи и их присутствие</h1></div>
                 <div class="card-body">
                     <app-component
                         :priorities="{{$priorities}}"
