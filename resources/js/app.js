@@ -4,7 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+require('./bootstrap'); //подключим bootstrap
 
 window.Vue = require('vue');
 
@@ -30,4 +30,4 @@ const app = new Vue({
     el: '#app',
     components: {
         'app-component': AppComponent}
-});
+}); //fresh vue application
