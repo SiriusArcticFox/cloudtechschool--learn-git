@@ -30,4 +30,4 @@ const app = new Vue({
     el: '#app',
     components: {
         'app-component': AppComponent}
-});
+}); //fresh vue application
